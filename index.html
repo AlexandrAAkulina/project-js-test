@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="support-block">
+      <div class="support">
+        <div class="support-title-group">
+          <h2 class="support-title">Support Ukraine</h2>
+          <svg class="support-icon" width="20" height="32">
+            <use href="./icons-sprite.svg#ukraine-emblem"></use>
+          </svg>
+          <!-- <img class="support-icon beating" src="./Vector.png" alt="trizub" /> -->
+        </div>
+        <div class="support-overlay">
+          <ul class="support-list-js"></ul>
+        </div>
+        <button class="support-slide-btn">
+          <svg class="support-slide-down-btn">
+            <use href="./icons-sprite.svg#arrow-down-slider-icon"></use>
+          </svg>
+          <svg class="support-slide-up-btn hidden-support-up-btn">
+            <use href="./icons-sprite.svg#arrow-up-slider-up-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./support.js"></script>
+  </body>
+</html>
