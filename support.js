@@ -1,14 +1,14 @@
-// import save_the_children from '../project-js-test/img/save_the_children.png';
-// import hope from '../project-js-test/img/hope.png';
-// import united_24 from '../project-js-test/img/united_24.png';
-// import medical_corps from '../project-js-test/img/medical_corps.png';
-// import med_sans_front from '../project-js-test/img/med_sans_front.png';
-// import razom from '../project-js-test/img/razom.png';
-// import against_hunger from '../project-js-test/img/against_hunger.png';
-// import world_vision from '../project-js-test/img/world_vision.png';
-// import serhiy_prytula from '../project-js-test/img/serhiy_prytula.png';
+import save_the_children from './img/save_the_children.png';
+import hope from './img/hope.png';
+import united_24 from './img/united_24.png';
+import medical_corps from './img/medical_corps.png';
+import med_sans_front from './img/med_sans_front.png';
+import razom from './img/razom.png';
+import against_hunger from './img/against_hunger.png';
+import world_vision from './img/world_vision.png';
+import serhiy_prytula from './img/serhiy_prytula.png';
 
-import img from '../project-js-test/img/*.png';
+// import img from './img/*.png';
 
 const supportFonds = [
   {
@@ -105,3 +105,16 @@ function slideTop() {
 function slideBottom() {
     supportList.slideTop = supportList.scrollHeight
 }
+
+
+
+// Герб
+
+// const letters = document.querySelector('.support-icon');
+
+// anime({
+//   targets: letters,
+//   duration: 5000,
+//   easing: 'easeInOutExpo',
+//   strokeDashoffset: [anime.setDashoffset, 0]
+// });
