@@ -99,11 +99,11 @@ function slideTo() {
 }
 
 function slideTop() {
-    supportList.slideTop = 0;
+    supportList.scrollTop = 0;
 }
 
 function slideBottom() {
-    supportList.slideTop = supportList.scrollHeight
+    supportList.scrollTop = supportList.scrollHeight
 }
 
 
