@@ -66,7 +66,7 @@ const supportSlideBtn = document.querySelector('.support-slide-btn');
 
 supportSlideBtn.addEventListener('click', slideTo);
 
-function createSupportListMarkup(elems) {
+function createSupportListMarkup() {
     return elems.map(({ title, url, img }, i) =>
         `<li class="support-item">
         <span class='support-item-num'>0${i + 1}</span>
